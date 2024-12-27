@@ -1,0 +1,10 @@
+npm install
+npm install eslint --save-dev
+npm install prettier --save-dev
+npm install eslint-plugin-prettier eslint-config-prettier --save-dev
+npm run lint
+npm run format
+
+
+npx eslint --fix src/layouts/usermaster/data/userMaster.js
+
